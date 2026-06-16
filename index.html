@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens e Lembranças</title>
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Plus+Jakarta+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header class="navbar">
+        <div class="logo">Viagens e Lembranças</div>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#passeios">Passeios</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#avaliacoes">Avaliações</a>
+        </nav>
+
+        <div class="hamburguer" id="hamburguer">
+            ☰
+        </div>
+    </header>
+
+  
+    <section class="hero" id="home">
+        <div class="hero-overlay">
+            <h1>Aventure-se em uma nova jornada</h1>
+
+            <div class="search-box">
+                <div class="campo">
+                    <label>Para onde vamos?</label>
+                    <input type="text" placeholder="Digite o destino">
+                </div>
+
+                <div class="campo">
+                    <label>Quando vamos?</label>
+                    <input type="text" placeholder="dd/mm/aaaa">
+                </div>
+
+                <div class="campo">
+                    <label>Retorno</label>
+                    <input type="text" placeholder="dd/mm/aaaa">
+                </div>
+
+                <button id="buscarBtn">Buscar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="passeios" id="passeios">
+
+        <div class="passeios-texto">
+            <h2>Passeios e viagens inesquecíveis</h2>
+
+            <p>
+                Descubra destinos incríveis e viva experiências memoráveis
+                com roteiros personalizados.
+            </p>
+
+            <button class="btn-laranja">Saiba mais</button>
+        </div>
+
+        <div class="passeios-imagens">
+            <img src="malanomundo.jpg" alt="Passeio 1">
+            <img src="suiça.jpg" alt="Passeio 2">
+        </div>
+    </section>
+
+    <section class="destinos" id="destinos">
+
+        <div class="card">
+            <img src="newyork.jpg" alt="Nova York">
+
+            <div class="card-info">
+                <h3>Nova York, EUA</h3>
+
+                <p>
+                    Cidade com inúmeros pontos turísticos, tais como o zoológico e o
+                    Central Park. Caso tenha interesse em conhecê-la, clique em saiba mais.
+                </p>
+
+                <button>Saiba mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="lisboa.jpg" alt="Lisboa">
+
+            <div class="card-info">
+                <h3>Lisboa, Portugal</h3>
+
+                <p>
+                    Cidade europeia, com a belíssima Torre de Belém e Praça do Comércio.
+                    Caso tenha interesse em conhecê-la, clique em saiba mais.
+                </p>
+
+                <button>Saiba mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="riodejaneiro.jpg" alt="Rio">
+
+            <div class="card-info">
+                <h3>Rio de Janeiro, Brasil</h3>
+
+                <p>
+                    Cidade Maravilhosa, com paisagens paradisíacas, tais como a estátua
+                    do Cristo Redentor e suas praias. Caso tenha interesse em conhecê-la,
+                    clique em saiba mais.
+                </p>
+
+                <button>Saiba mais</button>
+            </div>
+        </div>
+
+    </section>
+
+    
+    <section class="avaliacoes" id="avaliacoes">
+
+    <button class="seta esquerda" id="anterior">&#10094;</button>
+
+    <div class="cliente-box">
+        <img id="fotoCliente" src="cliente1.jpg" alt="Cliente">
+
+        <div class="cliente-texto">
+            <h2>Avaliações dos Clientes</h2>
+
+            <p id="depoimento">
+                Minha viagem foi incrível. Atendimento excelente e roteiro
+                perfeito! Consegui conhecer lugares maravilhosos e viver
+                experiências únicas.
+            </p>
+
+            <h3 id="nomeCliente">Ana Carolina</h3>
+        </div>
+    </div>
+
+    <button class="seta direita" id="proximo">&#10095;</button>
+
+</section>
+
+   
+    <footer class="footer">
+
+        <div class="footer-col">
+            <h2>Viagens e Lembranças</h2>
+            <p>Transformando viagens em memórias.</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>Nossos Parceiros</h3>
+            <ul>
+                <li>Turismo Nacional</li>
+                <li>Travel Group</li>
+                <li>Adventure World</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Assine a nossa newsletter</h3>
+
+            <div class="newsletter">
+                <input type="email" placeholder="Informe seu e-mail">
+                <button id="newsletterBtn">Enviar</button>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Siga nossas redes sociais</h3>
+
+            <div class="social">
+                <div class="icone">f</div>
+                <div class="icone">◎</div>
+                <div class="icone">𝕏</div>
+            </div>
+        </div>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
